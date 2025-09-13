@@ -49,3 +49,60 @@ The team creates detailed artifacts: task cards in Jira, code branching strategy
 - **Role of PO's Intent**: **The intent becomes the operational reality check, ensuring that daily execution stays grounded in what's actually achievable**. The intent is embedded in the sprint backlog (e.g., as a header in the planning doc) and referenced in daily syncs. It guides execution—e.g., during refinement, the team uses it to decide on pull requests or bug fixes, ensuring disciplined initiative if plans shift (like adopting a library for faster algorithm deployment). The intent prevents teams from drifting back into unrealistic expectations or scope creep, maintaining the realistic boundaries established during planning.
 
 This SDMP adaptation fosters a structured yet flexible approach, reducing chaos in fast-paced sprints. The PO's intent ensures unity: For instance, if the algorithm underperforms mid-sprint, the team can fallback to static visualizations while still delivering value aligned with the purpose. In practice, tools like Scrum ceremonies (planning, dailies, review) integrate seamlessly, and for a 2-week sprint, abbreviate steps as needed (e.g., combine analysis and comparison in one meeting). This method could scale to larger projects by nesting it within quarterly planning.
+
+---
+
+## Applying the MSTT-TC Framework in Sprint Planning
+
+The MSTT-TC framework (Mission, Stakeholders, Technology, Team, Time, and Constraints) provides a structured approach to environmental analysis during Mission Analysis (Step 2). This military-derived framework helps teams systematically assess all factors that could impact sprint success, ensuring the PO's intent remains grounded in reality.
+
+### Mission
+**What**: The core objective and success criteria for the sprint
+- **Example**: "Implement a predictive analytics dashboard with 80% test coverage and staging deployment"
+- **Key Questions**: What exactly are we building? What does "done" look like? What are the non-negotiable requirements?
+- **PO's Intent Role**: Transforms vague business goals into specific, measurable mission statements
+
+### Stakeholders
+**Who**: All parties with interest in or influence over the sprint outcome
+- **Example**: Product managers, end users, QA team, DevOps, security team, executive sponsors
+- **Key Questions**: Who needs to approve deliverables? Who will use the final product? Who can block progress?
+- **PO's Intent Role**: Ensures the intent addresses all stakeholder needs while remaining realistic about their expectations and constraints
+
+### Technology
+**How**: The technical stack, tools, and infrastructure available for the sprint
+- **Example**: React frontend, Python/ML libraries, existing API infrastructure, CI/CD pipeline
+- **Key Questions**: What technologies are we using? What's our technical debt? What new tools do we need?
+- **PO's Intent Role**: Aligns the intent with technical capabilities and constraints, preventing over-engineering or unrealistic technical goals
+
+### Team
+**Who**: The people executing the sprint and their capabilities
+- **Example**: 2 frontend developers, 1 ML engineer, 1 QA tester, 1 designer (part-time)
+- **Key Questions**: What skills do we have? What are our velocity patterns? Who's available when?
+- **PO's Intent Role**: Shapes the intent to match team capacity and skill sets, ensuring goals are achievable with available resources
+
+### Time
+**When**: The sprint duration and any time-sensitive constraints
+- **Example**: 2-week sprint, demo on Friday, production release in next sprint
+- **Key Questions**: How much time do we have? Are there hard deadlines? What are the dependencies?
+- **PO's Intent Role**: Creates time-bounded, realistic objectives that can be achieved within the sprint timeframe
+
+### Constraints
+**Limitations**: Any factors that limit or restrict what can be accomplished
+- **Example**: Budget limits, security requirements, performance standards, integration dependencies
+- **Key Questions**: What can't we do? What are the hard limits? What external factors affect us?
+- **PO's Intent Role**: Ensures the intent acknowledges and works within all constraints, preventing unrealistic commitments
+
+### Practical Application Example
+
+For our dashboard sprint, the MSTT-TC analysis might look like:
+
+**Mission**: Deploy MVP dashboard with predictive algorithm integration, 80% test coverage, staging-ready
+**Stakeholders**: Data science team (algorithm requirements), product managers (feature priorities), end users (usability), security team (compliance)
+**Technology**: React, Python/ML libraries, existing data pipeline, AWS infrastructure
+**Team**: 2 frontend devs, 1 ML engineer, 1 QA, shared DevOps support
+**Time**: 2 weeks, demo on day 10, production release in sprint 3
+**Constraints**: Must integrate with existing API, security review required, performance <2s load time
+
+**Resulting PO's Intent**: "Develop and deploy an MVP dashboard that integrates the new predictive algorithm to empower users with actionable engagement forecasts, enabling better decision-making; the end state is a functional, user-tested dashboard live in staging with at least 80% test coverage and no critical bugs, ready for production release in the next sprint."
+
+This MSTT-TC analysis ensures the intent is comprehensive, realistic, and addresses all environmental factors that could impact sprint success.
