@@ -1,0 +1,66 @@
+# Site settings
+title: "Commanders Intent Planning"
+description: "Research and documentation on applying military planning methodologies to software development"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: jekyll-theme-slate
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .gitignore
+  - .gitattributes
+  - README.md
+
+# Include files
+include:
+  - _pages
+
+# Collections
+collections:
+  research-notes:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "research-notes"
+    values:
+      layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+author: "Commanders Intent Planning Team"
+social:
+  name: "Commanders Intent Planning"
+  links:
+    - "https://github.com/your-username/commanders-intent-planning"
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Research Notes"
+    url: "/research-notes/"
