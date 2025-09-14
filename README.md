@@ -4,7 +4,7 @@ This directory contains research documentation and analysis related to commander
 
 ## Research documents
 
-### [1-week-sprint-option-a.md](./research-notes/1-week-sprint-option-a.md)
+### [1-week-sprint-option.md](./research-notes/1-week-sprint-option.md)
 - **Condensed SDMP for One-Week Sprints**: Adapts the 7-step Sprint Decision-Making Process to fit within a 2-3 hour morning planning session
 - **Rapid Decision-Making Framework**: Provides timeboxed approach (15-30 minutes per step) for ultra-fast sprint planning
 - **Product Owner Intent Transformation**: Emphasizes how PO intent transforms vague business goals into concrete, 5-day achievable plans
