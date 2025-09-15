@@ -4,6 +4,13 @@ This directory contains research documentation and analysis related to commander
 
 ## Research documents
 
+### [developer-friendly-sprint-planning.md](./research-notes/developer-friendly-sprint-planning.md)
+- **Non-military language**: Reframes SDMP into clear, developer-centric terminology
+- **One-week sprint focus**: Streamlined steps for a 2-3 hour planning session
+- **PO intent emphasis**: Turns vague goals into concrete, five-day executable plans
+- **Practical workflow**: Uses approaches, risk assessment, and plan finalization
+- **Actionable guidance**: Examples, timeboxing, and tools (Jira, Miro)
+
 ### [1-week-sprint-option.md](./research-notes/1-week-sprint-option.md)
 - **Condensed SDMP for One-Week Sprints**: Adapts the 7-step Sprint Decision-Making Process to fit within a 2-3 hour morning planning session
 - **Rapid Decision-Making Framework**: Provides timeboxed approach (15-30 minutes per step) for ultra-fast sprint planning
